@@ -1,0 +1,52 @@
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: blue;
+}
+
+.project h2 {
+    color: blue;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+	padding: 0;
+    overflow: hidden;
+}
+
+.project {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    padding: 10px;
+    border: 2px solid blue;
+    background-color: #ffffff;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border: 5px solid blue;
+}
+
+.project h2 {
+    border-bottom: 1px solid blue;
+    padding-bottom: 5px;
+}
+
+.description {
+    padding: 10px 0;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
