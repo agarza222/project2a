@@ -29,6 +29,7 @@ header h1 {
     border: 2px solid blue;
     background-color: #ffffff;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .project-img {
@@ -50,4 +51,6 @@ header h1 {
 
 .container::after {
     content: "";
-    display: table
+    display: table;
+    clear: both;
+}
